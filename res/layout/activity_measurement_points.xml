@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/bg"
+	android:orientation="vertical">
+	<TextView
+		android:id="@+id/textView5"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal" 
+		android:paddingTop="9dp"
+		android:text="@string/SystemAbout"
+		android:textColor="#A52A2A"
+		android:textStyle="italic|bold"
+		android:textSize="18dp" />
+	<TextView          
+      android:layout_width="fill_parent" 
+      android:layout_height="1px" 
+      android:background="#DADADA" />
+    <TextView 
+		android:text="@string/MeasurementPoints"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="18dp"
+		android:id="@+id/textView6"
+		android:gravity="center"
+		android:textColor="#ff000000"/>
+    <TextView          
+      android:layout_width="fill_parent" 
+      android:layout_height="1px" 
+      android:background="#DADADA" />
+	<ListView 
+		android:layout_width="fill_parent"
+		android:layout_height="320dp"
+		android:id="@+id/MobilePoints_list"
+		android:padding="5dp"
+		android:layout_margin="10dp"
+		android:cacheColorHint="#00000000">	
+	</ListView>
+	<TextView          
+      android:layout_width="fill_parent" 
+      android:layout_height="1px" 
+      android:background="#DADADA" />
+	<LinearLayout 
+		android:padding="8dp"
+		android:orientation="horizontal"
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:layout_gravity="bottom">
+		<Button
+			android:id="@+id/ButtonCalculateTransmitter"
+			android:layout_width="161dp"
+			android:layout_height="wrap_content"
+			android:drawableLeft="@drawable/upload"
+			android:onClick="onCalculate"
+			android:text="@string/Calculate" />
+		<Button
+			android:id="@+id/Cancel"
+			android:layout_width="161dp"
+			android:layout_height="wrap_content"
+			android:drawableLeft="@drawable/cancel"
+			android:onClick="onCancel"
+			android:text="@string/ButtonCancel" />
+		</LinearLayout>
+</LinearLayout>

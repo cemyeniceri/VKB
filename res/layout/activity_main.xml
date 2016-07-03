@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/bg"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:showDividers="beginning|end" >
+		<TextView
+			android:id="@+id/textView1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal" 
+			android:padding="9dp"
+			android:text="@string/SystemAbout"
+			android:textColor="#A52A2A"
+			android:textStyle="italic|bold"
+			android:textSize="18sp" />
+		<TextView
+			android:id="@+id/textView2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:paddingTop="9dp"
+			android:text="@string/Description"
+			android:textColor="#ff000000"
+			android:textStyle="italic|normal"/>
+		<TextView          
+	      android:layout_width="fill_parent" 
+	      android:layout_height="1sp" 
+	      android:background="#DADADA" />
+		<ImageView
+			android:id="@+id/GAB"
+			android:layout_width="fill_parent"
+			android:layout_height="195dp"
+			android:paddingLeft="50dp"
+			android:paddingRight="50dp"
+			android:paddingTop="10dp"
+			android:src="@drawable/newgab" />
+		<TextView
+			android:id="@+id/textView3"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:paddingTop="9dp"
+			android:paddingBottom="9dp"
+			android:text="@string/ImageDescription"
+			android:textColor="#ff000000"
+			android:textStyle="italic|normal" />
+		<TextView          
+			android:layout_width="fill_parent"
+			android:paddingLeft="12dp"
+			android:paddingRight="12dp" 
+			android:layout_height="1px" 
+			android:background="#DADADA" />
+		<TextView
+			android:id="@+id/textview4"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingTop="10dp"
+			android:text="@string/Application"
+			android:gravity="center_horizontal"
+			android:textColor="#ff000000" />
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="88dp"
+			android:gravity="center_vertical|center_horizontal" >
+			<Button
+				android:id="@+id/ButtonGetXMLData"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:drawableLeft="@drawable/download"
+				android:onClick="onDownloadData"
+				android:text="@string/ButtonDownloadData" />
+		</LinearLayout>
+	</LinearLayout>

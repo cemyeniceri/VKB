@@ -1,0 +1,1 @@
+TransmitterPointslistActivity içinde adapterin intent ile alımına bakılacak.

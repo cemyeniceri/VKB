@@ -1,0 +1,18 @@
+<resources>
+	<string name="app_name">VKB</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="menu_settings">Settings</string>
+	<string name="title_activity_main">VKB</string>
+	<string name="SystemAbout">Transmitter Positioner Unit (VKB)</string>
+	<string name="ButtonDownloadData">Download Measurement Points</string>
+	<string name="Calculate">Calculate</string>
+	<string name="Description">Calculate transmitter coordinates the easy way.. </string>
+	<string name="ImageDescription">GAB measures distances using ultrasonic sensors</string>
+	<string name="SystemINFO1">To establish a connection with GAB and </string>
+	<string name="SystemINFO2">Download distances data, please click.. </string>
+	<string name="Application">Please download distances and calculate transmitters positions</string>
+	<string name="ButtonUploadData">Upload</string>
+	<string name="ButtonCancel">Cancel</string>
+	<string name="MeasurementPoints">Measurement Points</string>
+	<string name="TransmitterPoints">Transmitter Points</string>		
+</resources>
